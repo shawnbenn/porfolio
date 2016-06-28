@@ -1,12 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>App</title>
+  <title>Shawn Benn - Part Designer, Part Developer</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/02642a07df.js"></script>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
+    <header id="main_navigation" class="clearfix">
+        <a href="index.html" class="name">Shawn Benn</a>
+        <nav>
+            <%= link_to "Articles", posts_path %>
+            <a href="projects.html">Projects</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
 <%= yield %>
 
