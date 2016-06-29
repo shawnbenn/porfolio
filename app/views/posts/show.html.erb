@@ -6,9 +6,11 @@
         </header>
 
         <div id="content">
-           <%= @post.content %>
+           <%= markdown @post.content %>
         <hr>
 
+		<%= link_to "Edit", edit_post_path(@post) %> 
+		
         <div id="share-box">
             <p>Share The Goals 2016</p>
             <!-- Twitter -->
