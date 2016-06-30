@@ -13,6 +13,7 @@ gem 'redcarpet', '~> 3.3', '>= 3.3.4'
 gem 'albino'
 gem 'nokogiri'
 gem 'friendly_id', '~> 5.1'
+gem 'will_paginate', '~> 3.1'
 
 
 group :development, :test do
