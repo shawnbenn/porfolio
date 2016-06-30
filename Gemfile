@@ -21,6 +21,7 @@ group :development, :test do
 end
 
 group :develoment do 
+	gem 'sqlite3'
 	gem 'capistrano-rails', '~> 1.1'
 end
 
