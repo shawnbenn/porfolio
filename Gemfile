@@ -14,6 +14,7 @@ gem 'albino'
 gem 'nokogiri'
 gem 'friendly_id', '~> 5.1'
 gem 'will_paginate', '~> 3.1'
+gem 'mail_form', '~> 1.5', '>= 1.5.1'
 
 
 group :development, :test do
