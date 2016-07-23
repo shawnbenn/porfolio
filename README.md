@@ -1,28 +1,51 @@
-== README
+## Planning my Portfolio application
+Answer Questions
+What are we building?
+Who are we building it for?
+What features do we need to have?
+User Stories
+Model our Data
+Think through the pages we need in our app
+Questions
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+What am I building? I am building a personal site. A place where I can blog, share examples of my work, and have people contact me.
 
-Things you may want to cover:
+What features do I want to have?
+Posts
+Create / Edit / Destroy
+Markdown
+Syntax highlighting
+Comments (Disqus)
+Projects
+Create / Edit / Destroy
+Contact
+Contact form
+Sendgrid
+User (Devise)
+User Stories
 
-* Ruby version
+As a blank, I want to be able to blank, so that blank.
 
-* System dependencies
+As a user, I want to be able to create posts so that I can share what I am learning on my blog.
+As a user, I want to be able to edit & destroy posts, so that I can manage my blog.
+As a user, I want to be able to write posts in markdown format so that it’s easy for me to writes posts.
+As a user, I want to be able to highlight the various syntax of code blocks that I share on my blog.
+As a user, I want to show the visitors and potential employers examples of my work, or stuff I’ve built.
+As a user, I want to be able to have visitors contact me through a form on my site.
+As a user, I want visitors to be able to leave comments on my posts.
+Modeling our Data
 
-* Configuration
+Post title:string content:string
 
-* Database creation
+Project title:string description:text link:string
 
-* Database initialization
+User
 
-* How to run the test suite
+Think through the pages we need in our app
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Home
+Posts#index
+Posts#Show
+Projects#index
+Projects#show
+Contact
